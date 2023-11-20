@@ -37,8 +37,7 @@ export default function Home() {
       </Head>
       <main>
         <form onSubmit={handleSubmit}>
-          <input
-            type="text"
+          <textarea
             value={input}
             onChange={(e) => setInput(e.target.value)}
             placeholder="Enter your message"
